@@ -11,7 +11,7 @@ public class checkPythagoreanTriplet {
         if (Math.pow(b, 2) + Math.pow(c, 2) == Math.pow(a, 2)) {
             System.out.println(a + "," + b + "," + c + "," + " Is Pythagorean Triplet");
         }
-        if (Math.pow(c, 2) + Math.pow(a, 2) == Math.pow(b, 2)) {
+        if (Math.pow(a, 2) + Math.pow(c, 2) == Math.pow(b, 2)) {
             System.out.println(a + "," + b + "," + c + "," + " Is Pythagorean Triplet");
         }
     }
