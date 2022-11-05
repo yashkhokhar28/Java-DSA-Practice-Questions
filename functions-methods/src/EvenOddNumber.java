@@ -3,11 +3,11 @@ import java.util.Scanner;
 /*[Define a program to find out whether a given number is even or odd.]
 (https://www.geeksforgeeks.org/java-program-to-check-if-a-given-integer-is-odd-or-even/)*/
 public class EvenOddNumber {
-    static void OddOREven(int n) {
-        if (n % 2 == 0) {
-            System.out.println(n + " Is Even ");
+    static void OddOREven(int no) {
+        if (no % 2 == 0) {
+            System.out.println(no + " Is Even ");
         } else {
-            System.out.println(n + " Is Odd ");
+            System.out.println(no + " Is Odd ");
         }
     }
 
